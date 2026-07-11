@@ -3,7 +3,6 @@ import Hero from "../components/home/Hero";
 import TrustTicker from "../components/home/TrustTicker";
 import Features from "../components/home/Features";
 import Testimonials from "../components/home/Testimonials";
-import CTA from "../components/home/CTA";
 
 function Home() {
   const sectionsRef = useRef([]);
@@ -49,7 +48,6 @@ function Home() {
       <TrustTicker sectionRef={setSectionRef(1)} />
       <Features sectionRef={setSectionRef(2)} />
       <Testimonials sectionRef={setSectionRef(3)} />
-      <CTA sectionRef={setSectionRef(4)} />
     </>
   );
 }

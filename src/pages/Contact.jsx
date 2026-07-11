@@ -164,11 +164,11 @@ function Contact() {
                   <span className="material-symbols-outlined">location_on</span>
                 </div>
                 <div>
-                  <h4 className="font-bold">Global Headquarters</h4>
+                  <h4 className="font-bold">Address</h4>
                   <p className="mt-1 text-sm text-on-primary/80">
-                    1221 Ledger Heights
+                    Pyramid Urban Homes Sector 67A
                     <br />
-                    Financial District, NY 10005
+                    Flat Number 605, Tower 9
                   </p>
                 </div>
               </div>
@@ -179,7 +179,9 @@ function Contact() {
                 <div>
                   <h4 className="font-bold">Phone</h4>
                   <p className="mt-1 text-sm text-on-primary/80">
-                    +1 (800) ELITE-ACC
+                    <a href="tel:+919896024684" className="hover:underline">
+                      +91 9896024684
+                    </a>
                   </p>
                 </div>
               </div>
@@ -190,49 +192,44 @@ function Contact() {
                 <div>
                   <h4 className="font-bold">Email</h4>
                   <p className="mt-1 text-sm text-on-primary/80">
-                    partners@sterlingledger.com
+                    <a
+                      href="mailto:hkagagrwal013@gmail.com"
+                      className="hover:underline"
+                    >
+                      hkagagrwal013@gmail.com
+                    </a>
                   </p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="relative w-full overflow-hidden border shadow-sm h-52 md:h-64 rounded-3xl border-outline-variant group">
+          <a
+            href="https://maps.app.goo.gl/3NUxjMoAejfnDom86"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="relative block w-full overflow-hidden border shadow-sm h-52 md:h-64 rounded-3xl border-outline-variant group"
+          >
             <img
               alt="Map"
               className="object-cover w-full h-full transition-transform duration-700 group-hover:scale-105"
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuD79D13hHsfd8382PrNYbn720O2Ilspzf6ZChqojfEe_27EZiqSqcjpHhpfmSrbvfSJZwZo4PtscJmY-IQ48Y3kUH2AZOTqYxmvvwop4nKWD_r7CETCSmR3yUSr565hBJHG0QX4jW5OJgp0Lte2vFG1SLCpeIFwJH2ESJLZyUMWQrHfURmuxqmMsz1X1_zZpemEPEZ7uzOVKi71ZjF4YXGK7PFtRsvwoGTbczVCZkDoRKLTq5hejtZ93jvBWFIb2FyOMfOCk2ynyzo"
             />
             <div className="absolute inset-0 flex items-center justify-center transition-opacity opacity-0 bg-primary/20 group-hover:opacity-100">
-              <div className="flex items-center gap-3 p-4 border shadow-xl bg-surface rounded-xl border-outline-variant">
-                <span className="material-symbols-outlined text-primary">
-                  explore
+              <div className="flex flex-col items-center gap-2 p-4 border shadow-xl bg-surface rounded-xl border-outline-variant">
+                <div className="flex items-center gap-3">
+                  <span className="material-symbols-outlined text-primary">
+                    explore
+                  </span>
+                  <span className="font-bold text-primary">
+                    Open in Google Maps
+                  </span>
+                </div>
+                <span className="text-xs font-medium text-center text-primary/80">
+                  Pyramid Urban Homes Sector 67A
+                  <br />
+                  Flat Number 605, Tower 9
                 </span>
-                <span className="font-bold text-primary">
-                  Open in Google Maps
-                </span>
-              </div>
-            </div>
-          </div>
-
-          <a
-            className="block p-6 text-center transition-all border-2 border-dashed bg-surface border-primary rounded-3xl hover:bg-surface-container-low"
-            href="#"
-          >
-            <div className="flex flex-col items-center gap-3">
-              <span className="text-4xl material-symbols-outlined text-primary">
-                calendar_month
-              </span>
-              <h4 className="text-xl font-bold text-primary">
-                Schedule a Discovery Call
-              </h4>
-              <p className="text-sm text-on-surface-variant">
-                Pick a time that works best for you. No obligation, just a
-                15-min chat about your goals.
-              </p>
-              <div className="flex items-center gap-2 mt-2 font-bold text-primary">
-                View Availability
-                <span className="material-symbols-outlined">arrow_forward</span>
               </div>
             </div>
           </a>

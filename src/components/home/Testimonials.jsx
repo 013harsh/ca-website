@@ -2,7 +2,7 @@ import React from 'react';
 
 function Testimonials({ sectionRef }) {
   return (
-    <section ref={sectionRef} className="py-8 sm:py-12 md:py-20 px-4 bg-primary rounded-2xl sm:rounded-[3rem] my-6 sm:my-8 md:my-16 text-on-primary relative overflow-hidden">
+    <section ref={sectionRef} className="hidden md:block py-8 sm:py-12 md:py-20 px-4 bg-primary rounded-2xl sm:rounded-[3rem] my-6 sm:my-8 md:my-16 text-on-primary relative overflow-hidden">
       <div className="absolute inset-0 opacity-10 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-white to-transparent">
         {/* Fallback for webgl-shader */}
       </div>

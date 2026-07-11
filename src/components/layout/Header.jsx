@@ -111,13 +111,6 @@ function Header() {
           </Link>
           <Link
             onClick={handleNavClick}
-            to="/resources"
-            className="px-2 py-2 text-base font-medium rounded-lg text-on-surface hover:bg-surface-container"
-          >
-            Resources & Insights
-          </Link>
-          <Link
-            onClick={handleNavClick}
             to="/contact"
             className="px-2 py-2 text-base font-medium rounded-lg text-on-surface hover:bg-surface-container"
           >
