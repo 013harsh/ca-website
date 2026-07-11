@@ -65,12 +65,6 @@ function Header() {
               About Us
             </Link>
             <Link
-              to="/resources"
-              className="text-sm font-medium transition-colors text-on-surface hover:text-primary"
-            >
-              Resources & Insights
-            </Link>
-            <Link
               to="/contact"
               className="text-sm font-medium transition-colors text-on-surface hover:text-primary"
             >

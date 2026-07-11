@@ -1,9 +1,9 @@
-import React, { useEffect, useRef } from 'react';
-import Hero from '../components/home/Hero';
-import TrustTicker from '../components/home/TrustTicker';
-import Features from '../components/home/Features';
-import Testimonials from '../components/home/Testimonials';
-import CTA from '../components/home/CTA';
+import React, { useEffect, useRef } from "react";
+import Hero from "../components/home/Hero";
+import TrustTicker from "../components/home/TrustTicker";
+import Features from "../components/home/Features";
+import Testimonials from "../components/home/Testimonials";
+import CTA from "../components/home/CTA";
 
 function Home() {
   const sectionsRef = useRef([]);
@@ -14,21 +14,26 @@ function Home() {
 
   useEffect(() => {
     const observerOptions = {
-      threshold: 0.1
+      threshold: 0.1,
     };
 
     const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
+      entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          entry.target.classList.add('opacity-100', 'translate-y-0');
-          entry.target.classList.remove('opacity-0', 'translate-y-10');
+          entry.target.classList.add("opacity-100", "translate-y-0");
+          entry.target.classList.remove("opacity-0", "translate-y-10");
         }
       });
     }, observerOptions);
 
-    sectionsRef.current.forEach(section => {
+    sectionsRef.current.forEach((section) => {
       if (section) {
-        section.classList.add('transition-all', 'duration-700', 'opacity-0', 'translate-y-10');
+        section.classList.add(
+          "transition-all",
+          "duration-700",
+          "opacity-0",
+          "translate-y-10",
+        );
         observer.observe(section);
       }
     });
