@@ -45,7 +45,7 @@ function Header() {
             </svg>
           </div>
           <h2 className="text-xl font-bold leading-tight tracking-tight text-primary">
-            Sterling Ledger
+            CA Shubham
           </h2>
         </Link>
 

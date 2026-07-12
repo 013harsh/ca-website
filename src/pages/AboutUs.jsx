@@ -34,7 +34,7 @@ function AboutUs() {
             Established 1995
           </span>
           <h1 className="text-4xl font-black leading-tight md:text-5xl text-primary">
-            About Sterling Ledger
+            About CA Shubham
           </h1>
           <p className="text-lg leading-relaxed text-secondary">
             Precision, Integrity, and Growth. We are more than just accountants;
@@ -70,7 +70,7 @@ function AboutUs() {
           </div>
           <div className="space-y-6 text-lg leading-loose text-on-surface-variant">
             <p>
-              Founded in 1995, Sterling Ledger began with a simple mission: to
+              Founded in 1995, CA Shubham began with a simple mission: to
               provide transparent and precise financial guidance to small
               businesses. What started as a small, two-person operation in a
               quiet suburban office has blossomed into a premier regional
@@ -84,7 +84,7 @@ function AboutUs() {
               of sustained growth and security.
             </p>
             <p>
-              Today, Sterling Ledger serves a diverse portfolio of clients, from
+              Today, CA Shubham serves a diverse portfolio of clients, from
               innovative tech startups to established multi-generational family
               enterprises, treating every account with the same meticulous care
               that defined our first day in business.
@@ -233,8 +233,8 @@ function AboutUs() {
             Ready to Write Your Success Story?
           </h2>
           <p className="max-w-2xl mx-auto text-base md:text-lg opacity-80">
-            Let Sterling Ledger provide the financial clarity you need to grow
-            your business with confidence.
+            Let CA Shubham provide the financial clarity you need to grow your
+            business with confidence.
           </p>
           <div className="flex flex-col justify-center gap-4 pt-4 sm:flex-row">
             <button className="flex items-center justify-center w-full gap-2 px-8 py-4 font-bold transition-all sm:w-auto bg-tertiary-container text-on-tertiary-container rounded-xl hover:bg-opacity-90">

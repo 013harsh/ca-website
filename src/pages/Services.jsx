@@ -180,7 +180,7 @@ function Services() {
             Ready to Scale Your Financial Performance?
           </h3>
           <p className="max-w-2xl text-base md:text-lg opacity-90">
-            Join hundreds of successful businesses who trust Sterling Ledger for
+            Join hundreds of successful businesses who trust CA Shubham for
             their strategic financial management.
           </p>
           <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-4 mt-4 w-full">
