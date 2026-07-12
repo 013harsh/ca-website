@@ -20,7 +20,7 @@ function Header() {
           className="flex items-center gap-4 transition-opacity text-primary hover:opacity-90"
         >
           <div className="w-12 h-20 p-1">
-            <img src="public/CA.png" alt="error" />
+            <img src="/CA.png" alt="error" />
           </div>
           <h2 className="text-xl font-bold leading-tight tracking-tight text-primary">
             Shubham
