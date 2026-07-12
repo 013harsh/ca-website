@@ -60,17 +60,13 @@ function Testimonials({ sectionRef }) {
               </p>
               <div className="flex items-center gap-3 sm:gap-4">
                 <img
-                  alt="Sarah Jenkins"
+                  alt="CA Shubham"
                   className="size-12 sm:size-14 rounded-full object-cover ring-2 ring-white/50"
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgB7XQMDKT_L7Rj6k6zA8d8dLhL2cgAQle_kOON69DdpdMle5qaGzYxS1sDv-5ysjgjtY-zWkMp0Pix02GCP9-XY8TRBEaRCFoXRFIkOtN_SQRAFGsOIswRkMqh-F9XMYOxSSDUMjzxdbjYzKdHMvYvJTKZMn-lX44G9UgW3f855kW3E9rjb3F1H655v8brBZTOrYfQJgnQX47m_L-6yA5HUm2aKMzoGP9N9E-CYmOXwsLWZxJgjX6Z6Yn5TbiBzTuuJC6bfJ6Kuo"
                 />
                 <div>
-                  <h4 className="font-bold text-sm sm:text-base">
-                    Sarah Jenkins
-                  </h4>
-                  <p className="text-xs sm:text-sm opacity-70">
-                    CEO, Lumina Tech Solutions
-                  </p>
+                  <h4 className="font-bold text-sm sm:text-base">CA Shubham</h4>
+                  <p className="text-xs sm:text-sm opacity-70">CEO, Founder</p>
                 </div>
               </div>
             </div>
