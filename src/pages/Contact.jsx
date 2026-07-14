@@ -166,9 +166,9 @@ function Contact() {
                 <div>
                   <h4 className="font-bold">Address</h4>
                   <p className="mt-1 text-sm text-on-primary/80">
-                    Pyramid Urban Homes Sector 67A
+                    Shop no 87, Pyramid Square, Sector 67a
                     <br />
-                    Flat Number 605, Tower 9
+                    Sohna Road, Gurgaon-122001
                   </p>
                 </div>
               </div>
@@ -179,8 +179,8 @@ function Contact() {
                 <div>
                   <h4 className="font-bold">Phone</h4>
                   <p className="mt-1 text-sm text-on-primary/80">
-                    <a href="tel:+919896024684" className="hover:underline">
-                      +91 9896024684
+                    <a href="tel:+917065250531" className="hover:underline">
+                      +91 70652 50531
                     </a>
                   </p>
                 </div>
@@ -193,10 +193,10 @@ function Contact() {
                   <h4 className="font-bold">Email</h4>
                   <p className="mt-1 text-sm text-on-primary/80">
                     <a
-                      href="mailto:hkagagrwal013@gmail.com"
+                      href="mailto:Shubham@taxnavigo.in"
                       className="hover:underline"
                     >
-                      hkagagrwal013@gmail.com
+                      Shubham@taxnavigo.in
                     </a>
                   </p>
                 </div>
@@ -226,9 +226,9 @@ function Contact() {
                   </span>
                 </div>
                 <span className="text-xs font-medium text-center text-primary/80">
-                  Pyramid Urban Homes Sector 67A
+                  Shop no 87, Pyramid Square, Sector 67a
                   <br />
-                  Flat Number 605, Tower 9
+                  Sohna Road, Gurgaon-122001
                 </span>
               </div>
             </div>

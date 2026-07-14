@@ -31,10 +31,10 @@ function AboutUs() {
       <section className="flex flex-col items-center gap-12 animate-on-scroll md:flex-row">
         <div className="flex-1 space-y-6">
           <span className="text-sm font-semibold tracking-wider uppercase text-primary">
-            Established 1995
+            Established 2022
           </span>
           <h1 className="text-4xl font-black leading-tight md:text-5xl text-primary">
-            About Shubham
+            About CA Shubham Singhal
           </h1>
           <p className="text-lg leading-relaxed text-secondary">
             Precision, Integrity, and Growth. We are more than just accountants;
@@ -70,7 +70,7 @@ function AboutUs() {
           </div>
           <div className="space-y-6 text-lg leading-loose text-on-surface-variant">
             <p>
-              Founded in 1995, Shubham began with a simple mission: to provide
+              Founded in 1995,TAX NAVIGO began with a simple mission: to provide
               transparent and precise financial guidance to small businesses.
               What started as a small, two-person operation in a quiet suburban
               office has blossomed into a premier regional powerhouse.
@@ -83,7 +83,7 @@ function AboutUs() {
               of sustained growth and security.
             </p>
             <p>
-              Today, Shubham serves a diverse portfolio of clients, from
+              Today,TAX NAVIGO serves a diverse portfolio of clients, from
               innovative tech startups to established multi-generational family
               enterprises, treating every account with the same meticulous care
               that defined our first day in business.
@@ -232,7 +232,7 @@ function AboutUs() {
             Ready to Write Your Success Story?
           </h2>
           <p className="max-w-2xl mx-auto text-base md:text-lg opacity-80">
-            Let Shubham provide the financial clarity you need to grow your
+            LetTAX NAVIGO provide the financial clarity you need to grow your
             business with confidence.
           </p>
           <div className="flex flex-col justify-center gap-4 pt-4 sm:flex-row">

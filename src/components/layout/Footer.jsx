@@ -27,9 +27,10 @@ function Footer() {
         <div>
           <h4 className="mb-6 font-bold text-primary">Services</h4>
           <ul className="space-y-3 text-sm text-on-surface-variant">
-            <li>Tax Advisory</li>
-            <li>Corporate Audits</li>
-            <li>Financial Planning</li>
+            <li>Accounting</li>
+            <li>Taxation</li>
+            <li>SOX</li>
+            <li>Advisory</li>
           </ul>
         </div>
         <div>

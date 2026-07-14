@@ -69,8 +69,21 @@ function Hero({ sectionRef }) {
             Join <span className="font-bold text-primary">500+</span> global
             businesses
           </p>
+
+          {/* <div className="flex items-center justify-center gap-4 mt-4 lg:justify-start sm:mt-6">
+            <img
+              src="/CA.png"
+              alt="CA India"
+              className="object-contain w-auto h-16 sm:h-20"
+            />
+            <div className="flex items-baseline font-bold tracking-tight text-on-surface">
+              <span className="text-4xl sm:text-5xl">S</span>
+              <span className="text-2xl sm:text-3xl">hubham Singhal</span>
+            </div>
+          </div> */}
         </div>
       </div>
+
       <div className="relative z-10 flex-1 w-full">
         <div className="overflow-hidden border-4 border-white shadow-2xl sm:border-8 aspect-video lg:aspect-square rounded-xl sm:rounded-2xl">
           <img
